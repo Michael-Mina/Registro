@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     
-      <Router>
+      <Router basename='Registro'>
         <Navbar />
         <Switch>
           <Route path='/' compoent={Category} exact>
